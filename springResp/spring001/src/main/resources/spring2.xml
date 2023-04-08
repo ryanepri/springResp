@@ -28,6 +28,7 @@
     <bean id="catBean3" class="com.ryan.bean.Cat">
         <property name="name" value="Tommy"></property>
         <property name="mouse" ref="mouseBean3"></property>
+        <!--    底层：用反射调用get***方法，获得对象之后，再赋值。    -->
         <property name="mouse.name" value="Jerry3"></property>
         <!--    级联引入bean    -->
         <property name="mouse.birthday">
