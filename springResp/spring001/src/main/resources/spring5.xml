@@ -18,4 +18,8 @@
     </bean>
 
 
+    <!--  通知spring容器后置容器类的位置  -->
+    <bean id="myBeanProcesser" class="com.ryan.beanProcesser.MyBeanProcesser"></bean>
+
+
 </beans>

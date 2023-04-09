@@ -76,10 +76,6 @@ public class User2 {
 
     @Override
     public String toString() {
-        return "User2{" +
-                "uid=" + uid +
-                ", uname='" + uname + '\'' +
-                ", pwd='" + pwd + '\'' +
-                '}';
+        return "User2{" + "uid=" + uid + ", uname='" + uname + '\'' + ", pwd='" + pwd + '\'' + '}';
     }
 }
