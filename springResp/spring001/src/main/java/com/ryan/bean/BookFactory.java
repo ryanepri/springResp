@@ -5,7 +5,6 @@ import org.springframework.beans.factory.FactoryBean;
 
 public class BookFactory implements FactoryBean<Book> {
 
-
     public Book getObject() throws Exception {
         Book book = new Book();
         book.setBname("bookName-factory");

@@ -6,4 +6,6 @@
        http://www.springframework.org/schema/beans/spring-beans.xsd">
 
     <bean id="bookFactory" class="com.ryan.bean.BookFactory"></bean>
+
+
 </beans>
