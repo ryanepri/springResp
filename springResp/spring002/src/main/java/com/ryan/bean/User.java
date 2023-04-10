@@ -5,9 +5,9 @@ import org.springframework.stereotype.Controller;
 import org.springframework.stereotype.Repository;
 import org.springframework.stereotype.Service;
 
-//@Component
+@Component
 //@Component(value = "user1")
-@Controller
+//@Controller
 //@Service
 //@Repository
 public class User {
