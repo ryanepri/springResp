@@ -1,14 +1,13 @@
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;
-import java.util.Arrays;
 
 
 /**
  * JDK动态代理、面向接口
  * 无注释版
  */
-public class Test1 {
+public class TestProxy000 {
     public static void main(String[] args) {
 
         final Dinner dinner = new Person("张三");
