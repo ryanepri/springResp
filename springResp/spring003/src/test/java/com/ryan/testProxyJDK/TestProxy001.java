@@ -1,4 +1,4 @@
-package com.ryan.testProxy;
+package com.ryan.testProxyJDK;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
